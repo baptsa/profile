@@ -1,0 +1,159 @@
+body {
+ background-image:url(/images/seigaiha.png);
+ font-family: Verdana, sans-serif;
+ font-size: 100%;
+ font-family: 'Open Sans', sans-serif;
+ color: #C3C1C1;
+ }
+
+
+.list-inline {
+
+list-style: none;
+margin-bottom: 40px;
+padding: initial;
+padding-left: 0px;
+
+}
+
+
+
+.list-inline li {
+
+display: inline;
+text-align: center;
+font-size: 38px;
+margin: 40px;
+}
+
+a {
+text-decoration: none;
+list-style:none;
+color: #08ea97;
+
+}
+
+
+a:hover {
+color: #06B877;
+transition: 0.5s;
+}
+
+
+.image-circle-avatar {
+  border-radius: 50%;
+}
+
+
+.image-circle {
+  border-radius: 30%;
+}
+
+.image-resize {
+  width: 80px;
+  height: 80px;
+}
+
+.btn-green {
+
+background-color: #08ea97;
+margin: 10px;
+padding: 10px 20px;
+border-radius: 5px;
+color: white;
+
+}
+
+.btn-green:hover {
+  background-color: #06B877
+  color: white;
+  transition: 0.5s;
+}
+
+h1, h2 {
+
+font-family: 'Raleway', sans-serif;
+color: #AAA7A7;
+
+}
+
+h3 {
+
+  color: #08ea97;
+
+}
+
+
+#sidebar a {
+
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+
+
+
+}
+
+#sidebar ul {
+  margin-left: -12px;
+}
+
+
+#sidebar img {
+  width: 80px;
+  height: 80px;
+  color: #08ea97;
+  margin-bottom: 68px;
+  padding-top: 10px;
+}
+
+
+
+#sidebar li {
+list-style:none;
+
+}
+
+#sidebar a:hover {
+color: #06B877;
+transition: 0.5s;
+}
+
+
+#sidebar {
+  position: fixed;
+  width: 130px;
+  left: 0;
+  top: 25px;
+  bottom: 25px;
+  background-color: white;
+  opacity: 90%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.card {
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    border: blue;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+  }
+
+
+
+  #moi {
+    border-radius: 34px;
+    height: auto;
+    width: auto;
+    max-width: 312px;
+    max-height: 271px;
+}
